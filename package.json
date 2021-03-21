@@ -1,0 +1,29 @@
+{
+  "name": "shrink-node-modules2",
+  "version": "0.0.7",
+  "description": "CLI to shrink node_modules size by removing non-runtime files.",
+  "main": "index.js",
+  "bin": {
+    "shrink-node-modules2": "bin/shrink-node-modules2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zorji/shrink-node-modules.git"
+  },
+  "keywords": [
+    "shrink",
+    "node_modules"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zorji/shrink-node-modules/issues"
+  },
+  "homepage": "https://github.com/zorji/shrink-node-modules#readme",
+  "dependencies": {
+    "rimraf": "^3.0.2"
+  }
+}

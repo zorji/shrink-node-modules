@@ -9,8 +9,8 @@ Inspired by
 
 ```shell
 # shrink files
-npx shrink-node-modules2 ./node_modules
+npx shrink-node-modules ./node_modules
 
 # delete ./node_modules/.bin too
-npx shrink-node-modules2 --no-bin ./node_modules
+npx shrink-node-modules --no-bin ./node_modules
 ```

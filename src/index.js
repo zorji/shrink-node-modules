@@ -315,8 +315,8 @@ const vars = process.argv.slice(2)
 const nonFlagArgs = vars.filter(v => v.indexOf('--') !== 0)
 
 if (nonFlagArgs.length === 0) {
-  console.log('usage: npx shrink-node-modules2 ./node_modules')
-  console.log('usage: npx shrink-node-modules2 --no-bin ./node_modules')
+  console.log('usage: npx shrink-node-modules ./node_modules')
+  console.log('usage: npx shrink-node-modules --no-bin ./node_modules')
   process.exit(0)
 }
 

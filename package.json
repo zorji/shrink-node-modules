@@ -1,6 +1,6 @@
 {
   "name": "shrink-node-modules",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CLI to shrink node_modules size by removing non-runtime files.",
   "main": "index.js",
   "bin": {
@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/zorji/shrink-node-modules#readme",
   "dependencies": {
-    "rimraf": "^3.0.2"
+    "del": "^6.0.0"
   }
 }

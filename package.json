@@ -1,6 +1,6 @@
 {
   "name": "shrink-node-modules",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "CLI to shrink node_modules size by removing non-runtime files.",
   "main": "index.js",
   "bin": {

@@ -83,6 +83,7 @@ const defaultPaths = [
   '**/AUTHORS',
   '**/CopyrightNotice.txt',
   '**/LICENSE-W3C.html',
+  '**/LICENSE',
   '**/LICENSE.md',
   '**/LICENSE.txt',
   '**/LICENSE-MIT.txt',
@@ -123,7 +124,6 @@ if (nonFlagArgs.length === 0) {
 Promise.all(nonFlagArgs.map(async dir => {
   for (const deletePath of deletePaths) {
     const absDir = resolve(process.cwd(), dir)
-    // console.log(`shrinking pattern ${path}`)
     await rm(absDir, deletePath)
   }
 }))

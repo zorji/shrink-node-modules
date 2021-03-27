@@ -199,4 +199,6 @@ exports.vendorShrinkList = [
   '**/white-space-x/dist/white-space-x.esm.js',
   '**/white-space-x/dist/white-space-x.min.js',
   '**/white-space-x/src',
+
+  '**/typeorm/browser'
 ]
